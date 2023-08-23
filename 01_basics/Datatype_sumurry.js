@@ -5,3 +5,9 @@
 // Reference (Non Primitive)
 // Array, Objects, Function
 
+
+// ************************************************
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myname = "subrata"
