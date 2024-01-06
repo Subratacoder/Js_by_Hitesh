@@ -17,3 +17,6 @@ const my_all_heroes = [...marvel_heroes, ...dc_heroes]
 const another_array = [1, 2, 3, [4, 5, 6], 7, [8, 9, [1, 0 ]]];
 const new_another_array = another_array.flat(2);
 console.log(new_another_array);
+
+console.log(Array.isArray(263));
+console.log(Array.from("subho"));
