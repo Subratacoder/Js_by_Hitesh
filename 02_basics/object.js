@@ -1,6 +1,8 @@
 // Singleton
 
 // Object Literal
+
+const mySym = Symbol(key1);
 // Object.create // Construtor method
 const user = {
     name: "Subrata",
