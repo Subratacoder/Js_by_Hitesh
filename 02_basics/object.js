@@ -8,3 +8,6 @@ const user = {
     location: "Kolkata",
     email_Id: "subrataacharjee39@gmail.com",
 }
+
+console.log(user.age);
+console.log(user["location"]);
