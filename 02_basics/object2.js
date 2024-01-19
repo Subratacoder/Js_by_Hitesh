@@ -6,8 +6,10 @@ fbuser.name = "Subrata"
 fbuser.isloggedin = false
 
 // console.log(fbuser);
-console.log(Object.keys(fbuser));
-console.log(Object.values(fbuser));
+// console.log(Object.keys(fbuser));
+// console.log(Object.values(fbuser));
+// console.log(Object.entries(fbuser));
+console.log(Object.hasOwnProperty("location"));
 
 const anotheruser = {
     email: "subrata@chatgpt",
