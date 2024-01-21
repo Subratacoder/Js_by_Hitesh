@@ -29,3 +29,15 @@ const obj2 = {3: "c", 4: "d"}
 // const newobj = Object.assign({},obj1, obj2)
 const newobj = {...obj1,...obj2}
 console.log(newobj);
+
+// **************************Object Destructuring***********************
+
+const course = {
+    name: "Chai aur Js",
+    price:"free",
+    instructor: "Hitesh",
+} 
+
+const {name: coursename} = course
+
+console.log(coursename);
