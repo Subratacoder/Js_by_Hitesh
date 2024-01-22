@@ -11,8 +11,11 @@
 // name ()
 
 function addTwoNumbers(num1, num2) {
-    // num1 + num2
-    console.log(num1 / num2);
+    // console.log(num1 + num2);
+    let sumoftwo = num1 + num2
+    return sumoftwo
 }
 
-addTwoNumbers(20, 20)
+const sumoftwo = addTwoNumbers(20, 20)
+
+console.log("sumoftwo: ", sumoftwo);
