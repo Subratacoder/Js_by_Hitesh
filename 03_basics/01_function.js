@@ -38,4 +38,23 @@ function calShoppingCart(...num1){
     return num1  
 }
 
-console.log(calShoppingCart(500, 100, 1500));
+// console.log(calShoppingCart(500, 100, 1500));
+
+const user = {
+    username: "Subrata",
+    price: 499,
+    age: 20,
+}
+
+function handleUser(anyobjct){
+    console.log(`Username is ${anyobjct.username} and price is ${anyobjct.price}`);
+
+}
+
+// console.log(handleUser(user));
+
+handleUser({
+    username: "Subho",
+    price: 599,
+    age: 20,
+})
