@@ -22,7 +22,7 @@ for (let index = 0; index < myarr.length; index++) {
     console.log(element);
 }
 
-break & continue
+// break & continue
 
 for (let index = 1; index <= 20; index++) {
     const element = index;
