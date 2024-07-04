@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur Javascript | DOM</title>
+    <style>
+        body{
+            background-color: #212121;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+</body>
+<script>
+    function addLanguge(lang){
+        const li = document.createElement('li')
+        li.innerHTML = `${lang}`
+        document.querySelector('.language').appendChild(li)
+    }
+    addLanguge("Rust")
+    addLanguge("GoLang")
+
+function addOptiLanguage (lang){
+    const li = document.createElement('li')
+    li.appendChild(document.createTextNode(lang))
+    document.querySelector('.language').appendChild(li)
+}
+addOptiLanguage("Typescript")
+
+//edit
+const secondLang = document.querySelector("li:nth-child(2)")
+const addLi = document.createElement('li')
+addLi.textContent = "Python"
+secondLang.replaceWith(addLi)
+
+//edit
+const fistLang = document.querySelector("li:first-child")
+const addFirstLang = document.createElement('li')
+addFirstLang.textContent = "Rust"
+fistLang.replaceWith(addFirstLang)
+
+//Remove
+const lastLang = document.querySelector('li:last-child')
+lastLang.remove()
+</script>
+</html>
