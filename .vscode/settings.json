@@ -1,4 +1,7 @@
 {
-    "editor.fontSize": 16,
-    "terminal.integrated.fontSize": 15
+    "editor.fontSize": 20,
+    "terminal.integrated.fontSize": 12,
+    "editor.tabSize": 6,
+    "editor.accessibilityPageSize": 600,
+    "editor.cursorStyle": "line"
 }
